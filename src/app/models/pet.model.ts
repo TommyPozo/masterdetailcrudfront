@@ -1,10 +1,10 @@
 export class Pet {
-
-  petId: number;
-  name: string;
-  birthDate: Date;
+  Id: number;
+  Code: string;
+  Name: string;
+  Birth: string;
   Race: string;
-  Observations: string;
-  ClientId: number;
-
+  Reason: string;
+  Total: number;
+  PatientId: number;
 }
